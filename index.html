@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Selector</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+		<div class="header-inner">
+            <div class="header-border">
+                <img src="./image/blink.png" class="kitty-img">
+                <div>
+                    <h2>Kitty's Purrfect...</h2>
+                    <h1>Meme Selector</h1>
+                </div>
+            </div>    
+		</div>
+	</header>
+
+    <main>
+		<h3>Click On How You're Feeling...</h3>
+		<div class="controls-container">
+			<div class="cat-emotion-btn" id="cat-emotion-btn">
+                <button class="cat-btns"><img class="kittys" src="image/moody.png">Moody</button>
+                <button class="cat-btns"><img class="kittys" src="image/insomniac.png">insomniac</button>
+                <button class="cat-btns"><img class="kittys" src="image/confused.png">Confused</button>
+                <button class="cat-btns"><img class="kittys" src="image/scared.png">Scared</button>
+                <button class="cat-btns"><img class="kittys" src="image/relaxed.png">Relaxed</button>
+                <button class="cat-btns"><img class="kittys" src="image/happy.png">Happy</button>
+                <button class="cat-btns"><img class="kittys" src="image/hungry.png">Hungry</button>
+                <button class="cat-btns"><img class="kittys" src="image/dominant.png">Dominant</button>
+                <button class="cat-btns"><img class="kittys" src="image/sad.png">Sad</button>
+            
+                
+            </div>
+			<div class="gifs-check">
+				<label for="gifs-only-option" class="gifs-check-label">Animated GIFs only</label>
+				<input type="checkbox" id="gifs-only-option">
+			</div>
+			<!-- <button class="get-image-btn" id="get-image-btn">Get Image</button> -->
+		</div>
+	</main>
+		<div class="meme-modal" id="meme-modal">
+			<button class="meme-modal-close-btn" id="meme-modal-close-btn">X</button>
+			<div id="meme-modal-inner"></div>
+		</div>
+
+
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
